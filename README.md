@@ -14,13 +14,21 @@ make all
 To Run the file with the different puzzle consult the makefile to see the different puzzles
 
 to run the 1.puzzle
-``` make execute1 ```
+``` 
+make execute1 
+```
 
 to run the 2.puzzle
-``` make execute2 ```
+``` 
+make execute2
+```
 
 to run the easy puzzle
-``` make execute ```
+``` 
+make execute
+```
 
 to clean and delete the executable and object files run
-``` make clean ```
+```
+make clean
+```
