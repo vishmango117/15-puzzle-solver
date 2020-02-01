@@ -11,21 +11,22 @@ CPPFLAGS=-Wall  -Werror  -O3
 #CPPFLAGS=-g
 
 SRC=puzzle.o  
+PUZZLE_DIR = sample_puzzles/
 TARGET=output
 execute: $(TARGET)
-	./$(TARGET) easypuzzle.puzzle
+	./$(TARGET) $(PUZZLE_DIR)easypuzzle.puzzle
 execute1: $(TARGET)
-	./$(TARGET) 1.puzzle
+	./$(TARGET) $(PUZZLE_DIR)1.puzzle
 execute2: $(TARGET)
-	./$(TARGET) 2.puzzle.txt
+	./$(TARGET) $(PUZZLE_DIR)2.puzzle.txt
 execute3: $(TARGET)
-	./$(TARGET) 3.puzzle.txt
+	./$(TARGET) $(PUZZLE_DIR)3.puzzle.txt
 execute4: $(TARGET)
-	./$(TARGET) 4.puzzle.txt
+	./$(TARGET) $(PUZZLE_DIR)4.puzzle.txt
 execute14: $(TARGET)
-	./$(TARGET) 14.puzzle.txt
+	./$(TARGET) $(PUZZLE_DIR)14.puzzle.txt
 execute88: $(TARGET)
-	./$(TARGET) 88.puzzle.txt
+	./$(TARGET) $(PUZZLE_DIR)88.puzzle.txt
 all: $(SRC)
 	$(CC) -o $(TARGET) $(SRC) $(CPPFLAGS)
 
