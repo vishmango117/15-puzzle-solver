@@ -5,6 +5,8 @@ If given time we can add the step by step solution as of the current moment it j
 
 This program uses IDA* Graph algorithm in conjunction with Manhattan Heuristics to compute the solution.
 
+This program was created before i started using Git and Github and hence thats why there are not many commits to the repo.
+
 ## Instructions to Run the program
 Run the makefile with the command all to compile and build the program
 ```
